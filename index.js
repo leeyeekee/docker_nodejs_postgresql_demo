@@ -1,6 +1,6 @@
 const pg = require('pg');
 
-const cs = 'postgres://admin:admin@postgresql:5432/sampledb';
+const cs = 'postgres://postgres:admin@postgresql:5432/sampledb';
 
 const client = new pg.Client(cs);
 client.connect();
